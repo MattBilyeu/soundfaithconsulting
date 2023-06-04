@@ -1,63 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-:root {
-    --primary-color: #232822;
-    --secondary-color: #2d342c;
-}
-
-html,
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: space-between;
-}
-
-#hamburger {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    height: 1.5rem;
-    width: 2rem;
-    justify-content: space-between;
-}
-
-#hamburger div {
-    background-color: white;
-    height: 0.15rem;
-}
-
-.buyChristianMinistryBooks {
-    padding: 1rem;
-}
-
-
-footer {
-    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-footer .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    margin: 0.5rem auto;
-    justify-content: space-between
+.booking {
+    padding-bottom: 1rem;
 }
 
-footer h4 {
-    font-size: 0.5rem;
+.bookButton {
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bookButton a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.ministryConsultingReviews {
+    background-color: white;
+    color: var(--primary-color);
+    height: 200px;
+    text-align: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.welcome h1 {
+    margin-bottom: 0;
+}
+
+.welcome p {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0 auto;
+    box-shadow: 4px 4px 0 grey
+}
+
+.aboutChristianMinistryConsulting,
+.aboutSoundFaithConsulting {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutChristianMinistryConsulting div,
+.aboutSoundFaithConsulting div {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.aboutChristianMinistryConsulting div h1,
+.aboutSoundFaithConsulting div h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.aboutChristianMinistryConsulting div p,
+.aboutChristianMinistryConsulting div h1
+.aboutSoundFaithConsulting div p,
+.aboutSoundFaithConsulting div h1 {
+    filter: brightness(85%);
+}
+
+.aboutSoundFaithConsulting {
+    background-color: white;
+    color: var(--primary-color)
 }
