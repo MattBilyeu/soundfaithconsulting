@@ -24,10 +24,16 @@ body {
 }
 
 .ministryConsultingReviews {
-    background-color: white;
-    color: var(--primary-color);
-    height: 200px;
-    text-align: center;
+    background-image: url('images/reviews/reviewBackground.png');
+    background-size: cover;
+}
+
+.slide {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto
 }
 
 .welcome {

@@ -10,7 +10,7 @@ main {
 }
 
 .callToAction {
-    background-image: url('../images/causes/causesHeader-Small.png');
+    background-image: url('../images/causes/causesHeader.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,8 @@ main {
 }
 
 .callToAction p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 0.2rem 0;
 }
 
 .button {

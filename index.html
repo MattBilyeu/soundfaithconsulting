@@ -23,11 +23,22 @@
 	</head>
     <body>
         <header>
-            <div id="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+            <nav>
+                <div id="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="mobileBackdrop"></div>
+                <div class="mobileNav">
+                    <a href="index.html">Home</a>
+                    <a href="services/services.html">Services</a>
+                    <a href="speaker-team/speakers.html">Speaker Team</a>
+                    <a href="contact-us/contact-us.html">Contact Us</a>
+                    <a href="about/about.html">About</a>
+                    <a href="causes/causes.html">Causes</a>
+                </div>
+            </nav>
             <div class="buyChristianMinistryBooks">
                 <img src="images/icons/buyMinistryBooks.png" alt="Buy ministry Books" class="ministryBookStoreIcon">
             </div>
@@ -43,7 +54,24 @@
                     <a href="services/index.html#bookingAnchor">Book Online</a>
                 </div>
             </div>
-            <div class="ministryConsultingReviews">Placeholder for Review Section</div>
+            <div class="ministryConsultingReviews">
+                <div class="carousel">
+                    <div class="carouselItems">
+                        <div class="slide active">
+                            <div class="slideContents">
+                                <img src="images/reviews/ericHernandez.png"></div>
+                                <div class="recommends">
+                                    <img src="images/reviews/star.png"><h3>Recommends</h3>
+                                </div>
+                                <p>"Tyson is top-notch and thorough in all he does.  His passion is evident and ..."</p>
+                                <h4>Eric Hernandez - 1/15/23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-slide"><</div>
+                    <div class="right-slide">></div>
+                </div>
+            </div>
             <div class="welcome">
                 <img src="images/ministryConsultant-Small.png" alt="Ministry Consultant Photo">
                 <h1>Welcome</h1>
@@ -109,5 +137,6 @@
             <div class="smsIcon">
                 <img src="images/icons/speechBubble.png" alt="Text Us">
             </div>
+            <script src="shared.js"></script>
         </footer>
     </body>
