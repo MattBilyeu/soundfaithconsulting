@@ -67,3 +67,64 @@ footer h4 {
     bottom: 1rem;
     right: 1rem;
 }
+
+.carousel {
+    width: 100%;
+    position: relative;
+    height: 375px;
+    margin-bottom: 1rem;
+}
+
+.carousel .left-slide,
+.carousel .right-slide {
+    display: inline-block;
+    position: relative;
+    bottom: 245px;
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 4rem;
+    transition: all .5s ease;
+}
+
+.carousel .left-slide {
+    left: -130px;
+}
+
+.carousel .right-slide {
+    right: -130px;
+}
+
+.carousel .left-slide:hover,
+.carousel .right-slide:hover {
+    color: white;
+}
+
+.carousel .carouselItems .slide img {
+    max-width: 100%;
+    display: block;
+}
+
+.carousel .carouselItems .slide {
+    display: none;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carouselItems .slide .caption {
+    position: relative;
+    width: 65%;
+    bottom: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 0.5rem;
+    color: var(--primary-color);
+    box-shadow: 4px 4px 0 grey
+}
+
+.carousel .carouselItems .slide.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
