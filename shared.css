@@ -22,6 +22,10 @@ nav a {
     color: white;
 }
 
+#desktopNavigation {
+    display: none;
+}
+
 .mobileBackdrop {
     background-color: var(--primary-color);
     height: 100vh;
@@ -44,7 +48,7 @@ nav a {
     row-gap: 2rem;
 }
 
-header {
+#mobileNavigation {
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
@@ -80,7 +84,8 @@ footer .icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 50%;
+    max-width: 200px;
     margin: 0.5rem auto;
     justify-content: space-between
 }
@@ -111,6 +116,7 @@ footer h4 {
     font-weight: bold;
     font-size: 4rem;
     transition: all .5s ease;
+    cursor: pointer;
 }
 
 .carousel .left-slide {
@@ -123,7 +129,7 @@ footer h4 {
 
 .carousel .left-slide:hover,
 .carousel .right-slide:hover {
-    color: white;
+    color: lightgrey;
 }
 
 .carousel .carouselItems .slide img {
@@ -154,4 +160,35 @@ footer h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (min-width: 750px) {
+    #mobileNavigation {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #desktopNavigation {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        column-gap: 2rem;
+    }
+
+    #desktopNavigation a:hover {
+        filter: brightness(85%)
+    }
+
+    .buyChristianMinistryBooks {
+        cursor: pointer;
+    }
+
+    .buyChristianMinistryBooks:hover {
+        filter: brightness(85%)
+    }
 }

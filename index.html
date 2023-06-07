@@ -24,24 +24,37 @@
     <body>
         <header>
             <nav>
-                <div id="hamburger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div id="mobileNavigation">
+                    <div id="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="mobileBackdrop"></div>
+                    <div class="mobileNav">
+                        <a href="index.html">Home</a>
+                        <a href="services/services.html">Services</a>
+                        <a href="speaker-team/speakers.html">Speaker Team</a>
+                        <a href="contact-us/contact-us.html">Contact Us</a>
+                        <a href="about/about.html">About</a>
+                        <a href="causes/causes.html">Causes</a>
+                    </div>
+                    <div class="buyChristianMinistryBooks">
+                        <img src="images/icons/buyMinistryBooks.png" alt="Buy ministry Books" class="ministryBookStoreIcon">
+                    </div>
                 </div>
-                <div class="mobileBackdrop"></div>
-                <div class="mobileNav">
+                <div id="desktopNavigation">
                     <a href="index.html">Home</a>
                     <a href="services/services.html">Services</a>
                     <a href="speaker-team/speakers.html">Speaker Team</a>
                     <a href="contact-us/contact-us.html">Contact Us</a>
                     <a href="about/about.html">About</a>
                     <a href="causes/causes.html">Causes</a>
+                    <div class="buyChristianMinistryBooks">
+                        <img src="images/icons/buyMinistryBooks.png" alt="Buy ministry Books" class="ministryBookStoreIcon">
+                    </div>
                 </div>
             </nav>
-            <div class="buyChristianMinistryBooks">
-                <img src="images/icons/buyMinistryBooks.png" alt="Buy ministry Books" class="ministryBookStoreIcon">
-            </div>
         </header>
         <main>
             <div class="soundFaithConsultingLogo">
@@ -55,21 +68,81 @@
                 </div>
             </div>
             <div class="ministryConsultingReviews">
-                <div class="carousel">
-                    <div class="carouselItems">
-                        <div class="slide active">
-                            <div class="slideContents">
-                                <img src="images/reviews/ericHernandez.png"></div>
+                <div class="mobileReviews">
+                    <div class="carousel">
+                        <div class="carouselItems">
+                            <div class="slide active">
+                                <img class="reviewerImage" src="images/reviews/ericHernandez.png">
                                 <div class="recommends">
-                                    <img src="images/reviews/star.png"><h3>Recommends</h3>
+                                    <img src="images/reviews/star.png">
+                                    <h3>Recommends</h3>
                                 </div>
-                                <p>"Tyson is top-notch and thorough in all he does.  His passion is evident and ..."</p>
+                                <p>"Tyson is top-notch and thorough in all he does.  
+                                    His passion is evident and ..."</p>
                                 <h4>Eric Hernandez - 1/15/23</h4>
+                                <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
+                            </div>
+                            <div class="slide">
+                                <img class="reviewerImage" src="images/reviews/gabrielAlanJones.png">
+                                <div class="recommends">
+                                    <img src="images/reviews/star.png">
+                                    <h3>Recommends</h3>
+                                </div>
+                                <p>"Tyson is the exemplification of a leader with range.  
+                                    He functions at a high capacity..."</p>
+                                <h4>Gabriel Alan Jones - 12/29/2022</h4>
+                                <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
+                            </div>
+                            <div class="slide">
+                                <img class="reviewerImage" src="images/reviews/richardREng.png">
+                                <div class="recommends">
+                                    <img src="images/reviews/star.png">
+                                    <h3>Recommends</h3>
+                                </div>
+                                <p>"Sound Faith Consulting is an awesome companty.  
+                                    Working with Tyson has helped me..."</p>
+                                <h4>Richard R Eng - Author - 1/4/23</h4>
+                                <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
                             </div>
                         </div>
+                        <div class="left-slide"><</div>
+                        <div class="right-slide">></div>
                     </div>
-                    <div class="left-slide"><</div>
-                    <div class="right-slide">></div>
+                </div>
+                <div class="desktopReviews">
+                    <div class="review">
+                        <img class="reviewerImage" src="images/reviews/ericHernandez.png">
+                        <div class="recommends">
+                            <img src="images/reviews/star.png">
+                            <h3>Recommends</h3>
+                        </div>
+                        <p>"Tyson is top-notch and thorough in all he does.  
+                            His passion is evident and ..."</p>
+                        <h4>Eric Hernandez - 1/15/23</h4>
+                        <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
+                    </div>
+                    <div class="review">
+                        <img class="reviewerImage" src="images/reviews/gabrielAlanJones.png">
+                        <div class="recommends">
+                            <img src="images/reviews/star.png">
+                            <h3>Recommends</h3>
+                        </div>
+                        <p>"Tyson is the exemplification of a leader with range.  
+                            He functions at a high capacity..."</p>
+                        <h4>Gabriel Alan Jones - 12/29/2022</h4>
+                        <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
+                    </div>
+                    <div class="review">
+                        <img class="reviewerImage" src="images/reviews/richardREng.png">
+                        <div class="recommends">
+                            <img src="images/reviews/star.png">
+                            <h3>Recommends</h3>
+                        </div>
+                        <p>"Sound Faith Consulting is an awesome companty.  
+                            Working with Tyson has helped me..."</p>
+                        <h4>Richard R Eng - Author - 1/4/23</h4>
+                        <a href="https://www.facebook.com/SoundFaithConsulting/reviews">Read all reviews</a>
+                    </div>
                 </div>
             </div>
             <div class="welcome">
@@ -138,5 +211,7 @@
                 <img src="images/icons/speechBubble.png" alt="Text Us">
             </div>
             <script src="shared.js"></script>
+            <script src="carousel.js"></script>
         </footer>
     </body>
+</Html>
