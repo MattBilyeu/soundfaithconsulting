@@ -43,3 +43,43 @@ ul {
         box-shadow: none;
     }
 }
+
+@media screen and (min-width: 750px) {
+    .christianSpeaker {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 'one two';
+        max-width: 750px;
+        padding-bottom: 1rem;
+        border-bottom: thin lightgrey dotted;
+        margin-bottom: 1rem;
+    }
+
+    .gridOne img {
+        grid-area: one;
+    }
+
+    .gridOne .speakerBio {
+        grid-area: two;
+    }
+
+    .gridTwo img {
+        grid-area: two;
+    }
+
+    .gridTwo .speakerBio {
+        grid-area: one;
+    }
+
+    .christianSpeaker:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .speakerBio {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+}

@@ -12,21 +12,22 @@ body {
     padding-bottom: 1rem;
 }
 
-.bookButton {
+a.bookButton {
+    display: block;
     padding: 1rem;
     color: black;
     background-color: white;
     width: 80%;
     max-width: 332px;
-    margin: 0 auto;
-
-}
-
-.bookButton a {
+    margin: 1rem auto;
     text-decoration: none;
-    color: inherit;
     font-weight: bold;
     letter-spacing: 0.2rem;
+    box-shadow: 4px 4px 0 lightgrey;
+}
+
+a.bookButton:hover {
+    background-color: lightgrey;
 }
 
 .ministryConsultingReviews {
@@ -120,6 +121,10 @@ body {
     box-shadow: 4px 4px 0 grey
 }
 
+.welcome a:hover {
+    background-color: grey;
+}
+
 .aboutChristianMinistryConsulting,
 .aboutSoundFaithConsulting {
     display: flex;
@@ -140,7 +145,7 @@ body {
 }
 
 .aboutChristianMinistryConsulting div p,
-.aboutChristianMinistryConsulting div h1
+.aboutChristianMinistryConsulting div h1,
 .aboutSoundFaithConsulting div p,
 .aboutSoundFaithConsulting div h1 {
     filter: brightness(85%);
