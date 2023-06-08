@@ -42,7 +42,7 @@ nav a {
     justify-content: center;
     display: none;
     flex-direction: column;
-    position: relative;
+    position: fixed;
     top: 4rem;
     z-index: 2;
     width: 100vw;

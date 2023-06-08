@@ -172,4 +172,32 @@ body {
     .review {
         align-items: center;
     }
+
+    .welcomeGridContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 'one two' 'one three' 'one four';
+        margin: auto 1rem;
+    }
+
+    .welcome img {
+        grid-area: one;
+    }
+
+    .welcome h2 {
+        grid-area: two;
+    }
+
+    .welcome p {
+        grid-area: three;
+    }
+
+    .welcome a {
+        grid-area: four;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%
+    }
 }
