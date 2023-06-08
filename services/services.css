@@ -52,6 +52,10 @@ main h1 {
     justify-content: center;
 }
 
+.ministryConsultantBookingOption img {
+    width: 100%;
+}
+
 .ministryConsultantBookingOption div.bookingText {
     padding-left: 2rem;
 }
