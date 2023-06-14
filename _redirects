@@ -1,0 +1,2 @@
+/blog/feed     /blog
+/blog/:id     /blog
