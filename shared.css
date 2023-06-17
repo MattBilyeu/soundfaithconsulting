@@ -69,8 +69,14 @@ nav a {
     height: 0.15rem;
 }
 
-.buyChristianMinistryBooks {
+.bookingButton {
     padding: 1rem;
+    background-color: white;
+}
+
+.bookingButton a {
+    color: var(--primary-color);
+    font-weight: bold
 }
 
 
@@ -185,11 +191,11 @@ footer h4 {
         filter: brightness(85%)
     }
 
-    .buyChristianMinistryBooks {
+    .bookingButton {
         cursor: pointer;
     }
 
-    .buyChristianMinistryBooks:hover {
+    .bookingButton:hover {
         filter: brightness(85%)
     }
 }

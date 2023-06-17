@@ -20,7 +20,7 @@
         <meta name="theme-color" content="#232822">
         <link rel="icon" href="../images/icons/soundfaithicon.ico" sizes="64x64">
         <link type="text/css" rel="stylesheet" href="../shared.css">
-        <link type="text/css" rel="stylesheet" href="contact-us.css">
+        <link type="text/css" rel="stylesheet" href="booking.css">
 	</head>
     <body>
         <header>
@@ -36,9 +36,9 @@
                         <a href="../index.html">Home</a>
                         <a href="../services/services.html">Services</a>
                         <a href="../speaker-team/speakers.html">Speaker Team</a>
-                        <a href="contact-us.html">Contact Us</a>
+                        <a href="../contact-us/contact-us.html">Contact Us</a>
                         <a href="../about/about.html">About</a>
-                        <a href="../causes/causes.html">Causes</a>
+                        <a href="causes/causes.html">Causes</a>
                         <a href="../blog/">Blog</a>
                         <a href="../store/store.html">Store</a>
                     </div>
@@ -50,9 +50,9 @@
                     <a href="../index.html">Home</a>
                     <a href="../services/services.html">Services</a>
                     <a href="../speaker-team/speakers.html">Speaker Team</a>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="../contact-us/contact-us.html">Contact Us</a>
                     <a href="../about/about.html">About</a>
-                    <a href="../causes/causes.html">Causes</a>
+                    <a href="causes/causes.html">Causes</a>
                     <a href="../blog/">Blog</a>
                     <a href="../store/store.html">Store</a>
                     <div class="bookingButton">
@@ -62,19 +62,45 @@
             </nav>
         </header>
         <main>
+            <div class="formPhoto">
+                <img id="featurePhoto" src="" alt="">
+            </div>
             <form id="form" name="contact" method="POST" data-netlify="true">
-                <h1>How can we assist you?</h1>
                 <p>
-                    <input type="text" name="name" value="Name" />
+                    <select id="select">
+                        <option>First Consultation</option>
+                        <option>Public Relations</option>
+                        <option>Literary Agent</option>
+                        <option>Phil/Theo/Apol Consultation</option>
+                        <option>Douglas Groothuis</option>
+                        <option>Chris Gonzales</option>
+                        <option>Tim Stratton</option>
+                        <option>Tim Hsiao</option>
+                        <option>Artur Asaduriyan</option>
+                        <option>Dean Meadows</option>
+                        <option>Contact Speaker</option>
+                    </select>
                 </p>
                 <p>
-                    <input type="e-mail" name="email" value="Email" required />
+                    <label><span>Your Name: </span><input type="text" name="name" /></label>
                 </p>
                 <p>
-                    <textarea name="message">Message</textarea>
+                    <label><span>Your Phone: </span><input type="tel" name="email" /></label>
                 </p>
                 <p>
-                    <button id="send" type="submit">Send</button>
+                    <label><span>Your E-mail: </span><input type="e-mail" name="email" /></label>
+                </p>
+                <p>
+                    <label><span>Your Organization: </span><input type="text" name="email" /></label>
+                </p>
+                <p>
+                    <label><span>Preferred Date/Time?: </span><input type="text" name="email" /></label>
+                </p>
+                <p>
+                    <Label>Can you tell us a little more about your needs? <br><textarea name="message"></textarea></Label>
+                </p>
+                <p>
+                    <button id="send" type="submit">Book</button>
                 </p>
             </form>
         </main>
@@ -85,7 +111,11 @@
                 <a href="https://twitter.com/SoundFaithCons1" target="_Blank"><img src="../images/icons/twitterIcon.png"></a>
             </div>
             <h4>COPYRIGHT &copy; 2023 SOUND FAITH CONSULTING - ALL RIGHTS RESERVED.</h4>
+            <div class="smsIcon">
+                <img src="../images/icons/speechBubble.png" alt="Text Us">
+            </div>
             <script src="../shared.js"></script>
+            <script src="booking.js"></script>
         </footer>
     </body>
 </Html>

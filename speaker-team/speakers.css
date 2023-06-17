@@ -20,6 +20,10 @@ ul {
     text-align: left;
 }
 
+.speakerDetails p {
+    padding: 0 1rem;
+}
+
 .bookButton a {
     text-decoration: none;
     color: white;
@@ -27,6 +31,10 @@ ul {
     padding: 0.5rem;
     width: 25%;
     box-shadow: 4px 4px 0 rgba(35,40,34,0.5);
+}
+
+.contactSpeakerBookButton {
+    margin-top: 2rem;
 }
 
 .bookButton a:hover,
