@@ -12,20 +12,3 @@ function getFileNameFromURL() {
     const fileName = path.substring(path.lastIndexOf('/') + 1);
     return fileName;
 }
-
-function updateSMSIconPosition() {
-    const pageWidth = document.documentElement.clientWidth;
-    let maxPageWidth = 1200;
-    const fileName = getFileNameFromURL();
-    if(fileName === 'speakers.html') {
-        maxPageWidth = 750;
-    } else if(fileName === 'contact-us.html') {
-        return false;
-    };
-    const offset = (pageWidth - maxPageWidth)/2 + 1;
-    const smsIcon = document.querySelector('.smsIcon');
-    smsIcon.style.right = offset + 'px';
-}
-
-updateSMSIconPosition();
-window.addEventListener('resize', updateSMSIconPosition);
