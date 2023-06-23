@@ -3,6 +3,7 @@ const bookingSelections = [
     {name: 'Public Relations', image: '../images/ministryPublicRelations-Small.png'},
     {name: 'Literary Agent', image: '../images/christianLiteraryAgentConsultation-Small.png'},
     {name: 'Phil/Theo/Apol Consultation', image: '../images/philosophyTheologyApologeticsConsultation-Small.png'},
+    {name: 'Website Development', image: '../images/websiteDevelopment.jpg'},
     {name: 'Douglas Groothuis', image: '../images/douglasGroothuis-Small.png'},
     {name: 'Chris Gonzales', image: '../images/chrisGonzales-Small.png'},
     {name: 'Tim Stratton', image: '../images/timStratton-Small.png'},
